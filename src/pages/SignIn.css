@@ -1,0 +1,37 @@
+.signin-page {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.signin-page div {
+    /* background-color: blue; */
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.signin-page div h1 {
+    text-align: center;
+}
+
+.signin-page div input {
+    padding: 2%;
+    background-color: rgb(246, 246, 246);
+}
+
+.signin-page div button {
+    font-weight: 600;
+    padding: 2%;
+}
+
+.signin-page div p {
+    font-weight: 500;
+}
+
+.signin-page div p span {
+    font-weight: 500;
+    color: rgb(61, 143, 190);
+    cursor: pointer;
+}

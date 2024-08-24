@@ -1,0 +1,31 @@
+.header {}
+
+.header-main {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(157, 204, 199);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-main img {
+    cursor: pointer;
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.header-buttons button {
+    height: 10%;
+}
+
+.header-buttons img {
+    cursor: pointer;
+}
+
+.input {
+    width: 40%;
+}
