@@ -26,7 +26,7 @@ const SignIn = () => {
                     className="form-control"
                     placeholder="Password"
                 />
-                <button type='button' className='btn btn-secondary'>{active === 'signin' ? 'SIGN IN' : 'SIGN UP'}</button>
+                <button type='button' className='btn btn-dark'>{active === 'signin' ? 'SIGN IN' : 'SIGN UP'}</button>
                 <button type='button' className='btn btn-danger'>CONTINUE WITH GOOGLE </button>
                 {active === 'signin'
                     ?
